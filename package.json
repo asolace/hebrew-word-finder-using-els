@@ -5,7 +5,10 @@
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
+    "@fontsource/inter": "^5.0.8",
+    "@fontsource/roboto": "^5.0.8",
     "@mui/joy": "^5.0.0-beta.2",
+    "@mui/material": "^5.14.5",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -42,5 +45,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "author": "Asolace (https://github.com/asolace) by Jack He",
+  "license": "MIT"
 }

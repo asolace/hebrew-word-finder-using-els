@@ -1,46 +1,69 @@
-# Getting Started with Create React App
+# Equidistant Letter Sequences (ELS) React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React application allows users to search for Equidistant Letter Sequences (ELS) within Hebrew passages, a fascinating method historically associated with the Torah. Dive into the world of hidden codes and see what messages might be waiting to be discovered!
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Input your own Hebrew passages or choose from preloaded Torah sections.
+- Define your own starting position and skip intervals or let the app suggest them.
+- Visual representation of found sequences for better understanding.
+- History of searched sequences for easy reference.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Prerequisites
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Node.js and npm (Node Package Manager) installed on your machine.
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+```
+git clone https://github.com/your-username/els-react-app.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+cd els-react-app
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install the required dependencies:
 
-### `npm run eject`
+```
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+4. Start the development server:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+5. Open your browser and navigate to `http://localhost:3000` to view the app.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Usage
 
-## Learn More
+1. On the main page, input a Hebrew passage or select one from the dropdown menu.
+2. Input a starting position and a skip interval or use the "Suggest" button for recommendations.
+3. Click "Search" and watch as the app reveals any ELS sequences found.
+4. Browse the history section to revisit past searches.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+We welcome contributions! If you have ideas for improvements or bug fixes, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Submit a pull request, and we'll review it as soon as we can.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+## Acknowledgments
+
+- Thanks to all the contributors who have helped shape this project.
+- Inspired by historical studies on the Torah and its hidden codes.
+- Special thanks to the React community for providing resources and support.
